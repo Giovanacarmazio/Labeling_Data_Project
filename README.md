@@ -1,21 +1,49 @@
 
-##  Black Bear Records - Análise de Dados
+# Labeling Data Project
 
-Com a chegada de novos executivos na Label de música Black Bear Records, a empresa deve passar por grandes mudanças. Apesar de ter anos de prestígio no mundo da música, a gravadora têm ficado para trás nos seus resultados financeiros e está atrás de entender melhor como pode se adequar os novos tempos.
+Este repositório contém um projeto focado na prática de manipulação e rotulagem de dados, utilizando ferramentas de análise de dados para classificar e organizar conjuntos de dados. O objetivo é demonstrar como rotular dados de forma eficaz para facilitar a análise e gerar insights valiosos.
 
-Você e seu time de consultores foram contratados para analisar a situação geral da Gravadora, investigar seu portfólio e trazer insights que ajudem a empresa a montar uma estratégia de longo prazo que volte a colocar a Black Bear de volta no topo.
+## Descrição do Projeto
 
-Para isso, vocês têm um conjunto de dados - uma tabela - com as principais informações do portfólio da empresa. Para analisar esses dados, vamos utilizar o que você já aprendeu de Python e Pandas! Para ajudar no processo, vamos tentar trazer as respostas para algumas das principais perguntas levantadas junto dos executivos da empresa, focando em trazer os highlights para pautar a discussão.
+O projeto **Labeling Data Project** oferece um exemplo prático de como manipular dados com foco em rotulagem, utilizando ferramentas como Pandas para preparar os dados para modelos de aprendizado de máquina e análise estatística.
 
+## Tecnologias Utilizadas
 
-1) Quantos artistas temos no catálogo? Quantos álbuns lançados?
-2) Quantas nacionalidades? Qual o país com a maior concentração de artistas?
-3) Quantos artistas foram adicionados ao catálogo nos último 3 anos?
-4) Quais os 5 tipos de artista mais presentes no catálogo?
-5) Qual faixa de idade mais comum entre os artistas do catálogo?
-6) Quantos álbuns foram lançados nos últimos 5 anos?
-7) Quais os 10 gêneros musicais mais presentes no catálogo? Quanto cada um representa do total de vendas?
-8) Quais os gêneros com as melhores avaliações pela Rolling Stone? E quais os piores?
-9) Quais os artistas de maior sucesso comercial? E de sucesso da crítica especializada?
-10) Se tivéssemos que não renovar o contrato dos 20% artistas com pior desempenho na crítica, quanto estaríamos arriscando de vendas mensais?
+- **Python**
+- **Pandas**
+- **NumPy**
+- **Matplotlib** (para visualização)
 
+## Estrutura do Repositório
+
+- `data/`: Conjuntos de dados rotulados e não rotulados.
+- `scripts/`: Scripts Python para manipulação e rotulagem dos dados.
+- `docs/`: Documentação sobre os métodos de rotulagem utilizados.
+
+## Como Executar o Projeto
+
+### Pré-requisitos
+
+- Python 3.7+
+- Instalar dependências:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+### Passos para execução
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/Giovanacarmazio/Pratica_Dados_Label.git
+   ```
+
+2. Execute os scripts de rotulagem:
+   ```bash
+   python <nome_do_script>.py
+   ```
+
+## Contribuições
+
+Contribuições são bem-vindas! Abra *issues* ou envie *pull requests* para melhorias e novos exemplos.
+
+```
